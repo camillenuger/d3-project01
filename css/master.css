@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Roboto|Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Anton|Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Muli');
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+.image-block {
+  max-width: 640px;
+  border: 12px solid #C02A2A;
+  align-content: center;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+align-content: center;
+}
+
+header{
+  background: #F4EED3;
+  padding: 42px;
+font-family: 'Vollkorn', serif;
+}
+header ul {list-style-type: none;
+font-family: 'Vollkorn', serif;
+}
+
+header li{
+  border: 1px solid #C02A2A;
+  padding: 6px;
+  display: inline-block;
+font-family: 'Heebo', sans-serif;
+}
+
+h1{
+  font-size: 64px;
+  font-family: 'Vollkorn', serif;
+  color: #C02A2A;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+footer{
+  background:#F4EED3;
+  color: #000000;
+  padding: 42px;
+font-family: 'Courgette', cursive;
+
+}
+.imageblock{
+  border: #F4EED3;
+  max-width: 1200px
+  width: 100%
+}
+img{
+  width: 100%
+}
+
+footer ul{
+font-style: italic;
+font-family: 'Courgette', cursive;
+}
+
+body{
+  background: #F4EED3;
+  color: #000000;
+  padding: 42px;
+  font-family: 'Courgette', cursive;
+}
+
+.c{
+color: #C02A2A;
+}
+
+.intro{
+  font-family: 'Courgette', cursive;
+}
+
+.intro{
+  background-color: #C02A2A
+  padding: 12px;
+}
+
+  section {
+    min-height: 20vh;
+  }
+
+#section01 .b{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1em;
+  text-align: justify;
+
+}
+
+#section01 .c{
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.h1{
+  background: rgb(05, 0, 0) url('images/esope.jpeg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color : #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#section02 .b{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#section02 .c{
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#section03 .b{
+  font-family: 'Muli', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#section03 .c{
+  font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#section04 .b{
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+
+}
+
+#section04 .c{
+font-family: 'Fahkwang', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#section05 .b{
+font-family: 'Source Serif Pro', serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#section05 .c{
+font-family: 'Bree Serif', serif;
+    font-size: 2em;
+    text-align: center;
+}
