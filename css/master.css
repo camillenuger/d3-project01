@@ -5,23 +5,14 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Source+Serif+Pro');
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
-
-.image-block {
-  max-width: 640px;
-  border: 12px solid #C02A2A;
-  align-content: center;
-}
-
-.image-block img {
-  width : 100%;
-display:block;
-align-content: center;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Source+Serif+Pro:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700');
 header{
   background: #F4EED3;
   padding: 42px;
-font-family: 'Vollkorn', serif;
+font-family: 'Source Serif Pro', serif;
+text-align: center;
 }
 header ul {list-style-type: none;
 font-family: 'Vollkorn', serif;
@@ -36,10 +27,11 @@ font-family: 'Heebo', sans-serif;
 
 h1{
   font-size: 64px;
-  font-family: 'Vollkorn', serif;
+font-family: 'Source Serif Pro', serif;
   color: #C02A2A;
   font-weight: 400;
   line-height: 1.45;
+  text-align: center;
 }
 
 footer{
@@ -82,10 +74,54 @@ color: #C02A2A;
   background-color: #C02A2A
   padding: 12px;
 }
+.soustitre{
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 2em;
+
+
+
+}
 
   section {
     min-height: 20vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
   }
+.b,
+.c,
+.image-block
+{
+flex-basis: 420px;
+}
+
+
+
+#section01 {
+  background: #DBC6A0;
+flex-direction: row-reverse;
+}
+
+#section02 {
+  background: #897D68;
+}
+
+#section03 {
+  background: #DBC6A0;
+  flex-direction: row-reverse;
+}
+#section04 {
+  background: #897D68;
+}
+
+#section05 {
+  background: #DBC6A0;
+  flex-direction: row-reverse;
+}
+
+
 
 #section01 .b{
   font-family: 'Cormorant Garamond', serif;
@@ -101,8 +137,6 @@ color: #C02A2A;
 }
 
 .h1{
-  background: rgb(05, 0, 0) url('images/esope.jpeg') top center no-repeat;
-  background-size: cover;
   background-attachment: fixed;
   color : #fff;
   min-height: 100vh;
@@ -159,4 +193,33 @@ font-family: 'Source Serif Pro', serif;
 font-family: 'Bree Serif', serif;
     font-size: 2em;
     text-align: center;
+}
+#titre
+{
+background: url('images/esopeimage.jpg') top center no-repeat;
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 250px
+min-height: 100vh;
+width: auto;
+background-color: red;
+
+}
+.titre h1{
+  text-align: center;
+  min-height: inherit;
+font-family: 'Noto Sans', sans-serif;
+background-color: rgba(244, 238, 211, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 250px
+
+}
+
+.tittle{
+text-align: center;
 }
